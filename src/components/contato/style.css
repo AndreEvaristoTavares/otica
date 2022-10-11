@@ -1,0 +1,65 @@
+.contato {
+    background-color: #000;
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.contato .containerContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.contato .containerContato p {
+    color: #fff;
+    width: 350px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.contato .containerContato h2,
+.contato .containerContato h3 {
+    color: #fff;
+}
+
+.contato .containerContato .cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contato .containerContato .cont div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato .containerContato .cont div h3 {
+    text-align: left;
+}
+
+.contato .containerContato .cont div ul li {
+    margin: 20px 0;
+}
+
+.contato .containerContato .cont div ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contato .containerContato .cont div ul li a img {
+    width: 20px;
+    margin-right: 5px;
+
+}
+

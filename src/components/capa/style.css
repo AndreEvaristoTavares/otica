@@ -1,0 +1,84 @@
+.capa{
+    background-image: url('../img/capa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+.capa div{
+    margin-left: 100px;
+    margin-top: 5%;
+}
+.capa div p{
+    line-height: 50px;
+}
+.capa div p{
+    font-size: 20px;
+    color: rgb(172, 168, 168);
+}
+.capa div .destaqueCapa{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+@media(min-width:1400px){
+    .capa div p{
+        line-height: 100px;
+    }
+    .capa div p{
+        font-size: 40px;
+        color: rgb(172, 168, 168);
+    }
+    .capa div .destaqueCapa{
+        font-size: 60px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+@media(max-width:768px){
+    .capa{
+        height: 300px;
+        background-image: url('../img/capa.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        
+        
+    }
+    .capa div{
+        margin-left: 50px;
+    }
+    .capa div p{
+        line-height: 30px;
+    }
+    .capa p{
+        font-size: 15px;
+        color: rgb(172, 168, 168);
+    }
+    .capa .destaqueCapa{
+        font-size: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+@media(max-width:550px){
+    .capa div{
+        margin-top: 180px;
+        margin-left: 10px;
+    }
+    .capa p:nth-child(2n){
+        font-size: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .capa p:nth-child(1n), .capa p:nth-child(3n){
+        font-size: 15px;
+        color:#fff;
+        font-weight: bold;
+        line-height: 30px;
+    }
+}
